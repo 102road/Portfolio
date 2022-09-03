@@ -1,0 +1,27 @@
+@font-face {
+    font-family: CP Mono;
+    src: url('./assets/fonts/CPMono/CPMono\ Plain.otf')format('opentype');
+}
+
+*{
+    color: #ffffff;
+    font-family: CP Mono;
+}
+
+.root{
+    background-color: #000000;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.github{
+    background-color: #ffffff;
+}
+
+.icon{
+    height: 64px;
+    width: 64px;
+}
