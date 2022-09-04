@@ -10,11 +10,15 @@
 
 .root{
     background-color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
 }
 
 .nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .github{
@@ -24,4 +28,18 @@
 .icon{
     height: 64px;
     width: 64px;
+    justify-self: flex-end;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+}
+
+.project{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
 }
